@@ -8,7 +8,7 @@ set -euo pipefail
 
 # ===== Fixed Cloud Run config (Qwiklabs-friendly) =====
 REGION="us-central1"
-SERVICE="${SERVICE:-n4vlg-$(date +%s)}"
+SERVICE="${SERVICE:-n4grpc}"
 CPU="${CPU:-2}"
 MEMORY="${MEMORY:-2Gi}"
 TIMEOUT="${TIMEOUT:-3600}"
